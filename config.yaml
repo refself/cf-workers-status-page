@@ -16,16 +16,16 @@ settings:
 
 monitors:
   - id: app-reflow-prod # unique identifier
-    name: reflow.ai
+    name: Reflow Web APP Production [reflow.ai]
     description: 'Reflow Production Web APP' # default=empty
-    url: 'https://reflow.ai' # URL to fetch
+    url: 'https://www.reflow.ai' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
   
   - id: app-reflow-staging # unique identifier
-    name: staging.reflow.ai
+    name: Reflow Web APP Staging [staging.reflow.ai]
     description: 'Reflow Staging Web APP' # default=empty
     url: 'https://staging.reflow.ai' # URL to fetch
     method: GET # default=GET
@@ -34,7 +34,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: app-reflow-analytics-prod # unique identifier
-    name: analytics.reflow.ai
+    name: Reflow Analytics Web APP Production [analytics.reflow.ai]
     description: 'Reflow Production Analytics Web APP' # default=empty
     url: 'https://analytics.reflow.ai' # URL to fetch
     method: GET # default=GET
@@ -43,8 +43,8 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: ai-service-reflow-prod # unique identifier
-    name: ai-service.reflow.ai
-    description: 'AI Service production env' # default=empty
+    name: AI Service API Production [ai-service.reflow.ai]
+    description: 'AI Service API production' # default=empty
     url: 'https://ai-service.reflow.ai/swagger-ui' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -52,8 +52,8 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id:  ai-service-reflow-staging # unique identifier
-    name: ai-service-staging.reflow.ai
-    description: 'AI Service production staging' # default=empty
+    name: AI Service API Staging [ai-service-staging.reflow.ai]
+    description: 'AI Service API staging' # default=empty
     url: 'https://ai-service-staging.reflow.ai/swagger-ui' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
